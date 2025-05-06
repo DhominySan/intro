@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Trunks from './assets/Trunks.jpeg';
+import ManageData from './components/ManageData';
 function App() {
   return (
     <div className="App">
@@ -13,6 +14,7 @@ function App() {
         <div>
         <img src={Trunks} alt="o omi do shape" />
         </div>
+        <ManageData />
     </div>
   );
 }
